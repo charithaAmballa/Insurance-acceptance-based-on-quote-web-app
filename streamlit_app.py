@@ -202,8 +202,8 @@ def main():
   GeographicField63 = st.selectbox('select GeographicField63:',['Y','N',' '],key=202)
   GeographicField64 = st.selectbox('select GeographicField64:',['CA','NJ','TX','IL'],key=203)
   Year = st.selectbox('select year:', ['2013','2014','2015'],key=204)
-  Month= st.selectbox('select Month:' ['1','2','3','4','5','6','7','8','9','10','11','12'],key=205)
-  Weekday =st.selectbox('select weekday:' ['0','1','2','3','4','5','6'],key=206)
+  Month= st.selectbox('select Month:', ['1','2','3','4','5','6','7','8','9','10','11','12'],key=205)
+  Weekday =st.selectbox('select weekday:',['0','1','2','3','4','5','6'],key=206)
   Quarter = st.selectbox('select Quarter:',['1','2','3','4'], key=207)
 
   if st.button('Test Result'):

@@ -99,7 +99,7 @@ def main():
   PropertyField4 = st.selectbox('select propertyfield4:',['N','Y','UNKNOWN'],key=99)
   PropertyField5 = st.selectbox('select propertyfield5:',['N','Y'],key=100)
   PropertyField6 = 0
-  PropertyField7 = st.selectbox('select propertyfield7:',['o','R','J','D','S','N','I','Q','A','K','H','E','L','F','G','M','P','C','B'],,key=102)
+  PropertyField7 = st.selectbox('select propertyfield7:',['o','R','J','D','S','N','I','Q','A','K','H','E','L','F','G','M','P','C','B'],key=102)
   PropertyField8 = st.selectbox('select propertyfield8:',['0','1'],key=103)
   PropertyField9 = st.selectbox('select propertyfield9:',['0','1','2'],key=104)
   PropertyField10 = st.selectbox('select propertyfield10:',['0','1','2','3','4'],key=105)

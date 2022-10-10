@@ -205,7 +205,7 @@ def main():
   Month= st.selectbox('select Month:', ['1','2','3','4','5','6','7','8','9','10','11','12'],key=205)
   Weekday =st.selectbox('select weekday:',['0','1','2','3','4','5','6'],key=206)
   Quarter = st.selectbox('select Quarter:',['1','2','3','4'], key=207)
-
+  acceptance = ''
   if st.button('Test Result'):
      acceptance= predict_result([
  'QuoteNumber',

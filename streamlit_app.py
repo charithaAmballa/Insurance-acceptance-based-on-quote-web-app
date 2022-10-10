@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-loaded_model= pickle.load(open('model_chry.pkl' , 'rb'))
+loaded_model= pickle.load(open('model.pkl' , 'rb'))
 
 @st.cache
 def predict_result(input_data):

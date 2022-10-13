@@ -208,7 +208,7 @@ def main():
   Quarter = st.selectbox('select Quarter:',['1','2','3','4'])
 
   if st.button('Test Result'):
-     acceptance= predict_result([
+     acceptance= predict_result(['Unnamed: 0',
  'QuoteNumber',
  'QuoteConversion_Flag',
  'Field6',
